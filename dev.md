@@ -83,7 +83,7 @@ Here's how to handle alternative text for `svg`'s:
 -----------------------------
 
 # Concepts
-This is how accessibility in HTML and browsers works "under the hood."
+This is how support for screen readers in HTML and browsers works "under the hood."
 ## The Accessibility Tree and Assistive Technologies
   * Browsers construct an [Accessibility Tree](https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree), which contains a subset of information in the DOM, and which assistive technologies (such as screen readers) rely on to surface information about the page. So a screen reader user won’t know about anything that isn’t in the accessibility tree.
   * The nodes of the accessibility tree correspond to a subset of the nodes in the DOM. The nodes are “accessibility objects,” which have name, role, and state attributes. A checkbox, for example, might have a name “accept conditions,” a role “checkbox,” and a state “checked.”
